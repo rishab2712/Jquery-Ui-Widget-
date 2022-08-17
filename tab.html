@@ -1,0 +1,57 @@
+﻿<!doctype html>
+<html lang = "en">
+   <head>
+      <meta charset = "utf-8">
+	  
+      <title>Tab JQuery UI</title>
+      
+	  <link href = "https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel = "stylesheet" type="text/css" />
+      <script src = "https://code.jquery.com/jquery-1.10.2.js" type="text/javascript"></script>
+      <script src = "https://code.jquery.com/ui/1.10.4/jquery-ui.js" type="text/javascript"></script>
+		
+      <script type="text/javascript">
+          $(document).ready(function () {
+              $("#MyTabDiv").tabs();
+
+          });
+      </script>
+		 
+      <style type="text/css">
+         #MyTabDiv{font-size: 14px;}
+         #MyTabDiv div,#MyTabDiv p{background:#ffffff;}
+         .ui-widget-header {
+            background: #885988;;
+            border: 1px solid #245452;
+            color: #ffffff;
+            font-weight: bold;
+         
+         
+        }
+      </style>
+   </head>
+	
+   <body bgcolor="#5858574">
+      <div id="MyTabDiv">
+         <ul>
+            <li><a href="#tab1">My Name </a></li>
+            <li><a href="#tab2">My division</a></li>
+            <li><a href="#tab3">My Skill </a></li>
+         </ul>
+         <div id="tab1">
+            <p>
+            Rishabsingh Bhadoriya   
+            </p>
+         </div>
+         <div id="tab2" >
+            <p>
+               division = A, (B.C.A.)
+            </p>   
+         </div>
+         <div id="tab3">
+            <p>
+               Coading
+            </p>
+         </div>
+      </div><hr/>
+   </body>
+</html>
